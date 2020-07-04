@@ -4,6 +4,7 @@ import HomePage from "./pages/homepage/homepage.component";
 import Header from "./components/header/header-component";
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
+import SignInPage from "./pages/sign-in-page/sign-in-page.component";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={Shop} />
+        <Route path="/signIn" component={SignInPage} />
       </Switch>
     </div>
   );
