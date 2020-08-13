@@ -3,7 +3,6 @@
   min-height: 90vh;
   display: flex;
   flex-direction: column;
-  align-items: column;
   align-items: center;
   margin: 50px auto;
 
@@ -12,7 +11,7 @@
     height: 40px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1 px solid darkgrey;
+    border-bottom: 1 px solid black;
 
     .header-block {
       text-transform: capitalize;
